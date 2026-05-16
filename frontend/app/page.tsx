@@ -140,6 +140,7 @@ export default function Home() {
       <div style={{ marginBottom: 10 }}>
         <input
           type="email"
+          autoComplete="email"
           placeholder="メールアドレス"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
